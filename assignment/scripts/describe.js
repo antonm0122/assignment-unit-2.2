@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We are naming a variable called name and set it a value of Dane.
+// If the name equals Mary, it will console.log 'Hi, Mary'
+// If the name does not equal Mary, it will console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created a variable 'secret'
+// We are assigning code as 123, this is a number variable
+// If the variable code is 123 then the secret is 'super'. Multiplying code/123 by 2 is 246.  This is not greater than 150. 
+// Therefore console.log secret = 'Super'
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Created boolean variable of isStudent, assigned true.  Created age number, assigned 34. Created zip number, assinged 55407.
+// Console.log 'You're a student on the West Coast' if student variable is true AND zip is greater than 80000.
+// console.log 'What are your hobbies?' if student is false or age is less than 30
+// console.log 'Welcome to Prime' if student is true.
+// console.log 'How about the weather?' if student is false and age is less than 30.
 
 //CODE
 /*
@@ -134,9 +135,13 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - colorOne should be set to 'blue'. colorTwo should be set to 'red'
+
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//FIX - colorTwo is not included.  should equal 'purple'
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -147,9 +152,14 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+//FIX - variable is 'const time' and 'time', should be 'time' in both places
+//FIX - console.log 'throw away the food! is if temp OR time, should be &
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
